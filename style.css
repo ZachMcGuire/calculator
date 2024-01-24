@@ -1,0 +1,87 @@
+* {
+    font-size: larger;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.calculator {
+    width: 60%;
+    border: solid 1px black;
+    border-radius: 10%;
+    background-color: rgb(225, 227, 227);
+    /*display: flex;*/
+    
+    
+}
+
+.screenContainer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.screen {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: solid 1px black;
+    width: 75%;
+    margin: 5%;
+    background-color: azure;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.topRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.topBtn {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 25%;
+    justify-content: center;
+    /*flex-basis: 23%;*/
+}
+
+.subButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.numberBtn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.number {
+    display: flex;
+    flex-basis: 33%;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 25%;
+}
+
+.symbol {
+    border: 1px solid black;
+    border-radius: 25%;
+    justify-content: center;
+}
