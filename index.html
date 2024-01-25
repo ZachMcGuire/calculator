@@ -3,44 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>Calculator</title>
 </head>
 <body>
-    <h1 class="title">Calculator</h1>
+    <div class="background">
+        <h1 class="title">Calculator</h1>
     <div class="view">
         <div class="calculator">
             <div class="screenContainer">
-                <div class="screen">123456789</div>
+                <div class="screen"></div>
             </div>
-            <div class="buttons">
+            <div class="buttons" id="clearBtn">
                 <div class="topRow">
                     <div class="topBtn clear">C</div>
-                    <div class="topBtn paran">( )</div>
-                    <div class="topBtn percent">%</div>
-                    <div class="topBtn divide">/</div>
+                    <div class="topBtn operator paran">( )</div>
+                    <div class="topBtn operator percent">%</div>
+                    <div class="topBtn operator divide">/</div>
                 </div>
                 <div class="subButtons">
-                    <div class="numberBtn">
-                        <div class="number">7</div>
-                        <div class="number">8</div>
-                        <div class="number">9</div>
-                        <div class="number">4</div>
-                        <div class="number">5</div>
-                        <div class="number">6</div>
-                        <div class="number">1</div>
-                        <div class="number">2</div>
-                        <div class="number">3</div>
-                        <div class="number">+/-</div>
-                        <div class="number">0</div>
-                        <div class="number">.</div>
+                    <div class="numberBtn" id="Btn">
+                        <div class="number seven">7</div>
+                        <div class="number eight">8</div>
+                        <div class="number nine">9</div>
+                        <div class="number four">4</div>
+                        <div class="number five">5</div>
+                        <div class="number six">6</div>
+                        <div class="number one">1</div>
+                        <div class="number two">2</div>
+                        <div class="number three">3</div>
+                        <div class="number posNeg">+/-</div>
+                        <div class="number zero">0</div>
+                        <div class="number decimal">.</div>
                     </div>
                     <div class="actionBtn">
-                        <div class="symbol multiply">X</div>
-                        <div class="symbol subtract">-</div>
-                        <div class="symbol add">+</div>
-                        <div class="symbol equals">=</div>
+                        <div class="operator symbol multiply">x</div>
+                        <div class="operator symbol subtract">-</div>
+                        <div class="operator symbol add">+</div>
+                        <div class="operator symbol equals">=</div>
                     </div>
                 </div>
                 
@@ -48,6 +49,8 @@
             
         </div>
     </div>
+    </div>
+    
     
 </body>
 </html>

@@ -1,5 +1,16 @@
 * {
     font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.body {
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+.background {
+    background: linear-gradient(to right, #00AAFF, #4400ffc2);
 }
 
 .title {
@@ -27,13 +38,17 @@
     display: flex;
     justify-content: center;
     
+    flex-grow: 1;
+    
 }
 
 .screen {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
     border: solid 1px black;
+    min-height: 60px;
     width: 75%;
     margin: 5%;
     background-color: azure;
@@ -56,13 +71,21 @@
     border: 1px solid black;
     border-radius: 25%;
     justify-content: center;
+    width: 20%;
     /*flex-basis: 23%;*/
+}
+
+.topBtn:hover {
+    background-color: azure;
+    cursor: cell;
+
 }
 
 .subButtons {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 5%;
 }
 
 .numberBtn {
@@ -74,14 +97,27 @@
 
 .number {
     display: flex;
-    flex-basis: 33%;
+    flex-basis: 30%;
     border: 1px solid black;
     justify-content: center;
     border-radius: 25%;
+    margin: 3px;
+}
+
+.number:hover {
+    background-color: azure;
+    cursor: cell;
 }
 
 .symbol {
     border: 1px solid black;
     border-radius: 25%;
     justify-content: center;
+    width: 100%;
+    margin: 5px;
+}
+
+.symbol:hover {
+    background-color: azure;
+    cursor: cell;
 }
