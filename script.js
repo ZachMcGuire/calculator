@@ -67,7 +67,7 @@ function subtractClick () {
             screen.textContent += subtract.textContent; 
             operation = "-"
             console.log("Subtract clicked", event)
-            screen.textContent = firstNumber += operator += secondNumber;
+            screen.textContent = firstNumber += operation += secondNumber;
         })
     })
 };
@@ -78,7 +78,7 @@ function multiplyClick () {
             screen.textContent += multiply.textContent; 
             operation = "x"
             console.log("Multiply clicked", event)
-            screen.textContent = firstNumber += operator += secondNumber;
+            screen.textContent = firstNumber += operation += secondNumber;
         })
     })
 };
@@ -89,7 +89,7 @@ function divideClick () {
             screen.textContent += divide.textContent; 
             operation = "/"
             console.log("Divide clicked", event)
-            screen.textContent = firstNumber += operator += secondNumber;
+            screen.textContent = firstNumber += operation += secondNumber;
         })
     })
 };

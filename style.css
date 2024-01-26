@@ -10,7 +10,7 @@
 }
 
 .background {
-    background: linear-gradient(to right, #00AAFF, #4400ffc2);
+    /*background: linear-gradient(to right, #69c0eb, #4400ffc2);*/
 }
 
 .title {
@@ -28,7 +28,8 @@
     width: 60%;
     border: solid 1px black;
     border-radius: 10%;
-    background-color: rgb(225, 227, 227);
+    /*background-color: rgb(225, 227, 227);*/
+    background: linear-gradient(to right, #a0a5a7de, #a0a5a77c);
     /*display: flex;*/
     
     
@@ -71,13 +72,14 @@
     border: 1px solid black;
     border-radius: 25%;
     justify-content: center;
-    width: 20%;
+    width: 40%;
     /*flex-basis: 23%;*/
 }
 
 .topBtn:hover {
     background-color: azure;
     cursor: cell;
+    box-shadow: 5px 5px;
 
 }
 
@@ -107,9 +109,11 @@
 .number:hover {
     background-color: azure;
     cursor: cell;
+    box-shadow: 5px 5px;
 }
 
 .symbol {
+    display: flex;
     border: 1px solid black;
     border-radius: 25%;
     justify-content: center;
@@ -120,4 +124,5 @@
 .symbol:hover {
     background-color: azure;
     cursor: cell;
+    box-shadow: 5px 5px;
 }
